@@ -13,7 +13,9 @@
 
   <body>
     <%= render 'layouts/navigation'%>
-    <%= render 'layouts/messages'%> <!-- render from _messages.html.erb file !-->
-    <%= yield %>
-  </body>
+    <div id="page-content">
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
 </html>
