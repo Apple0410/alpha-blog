@@ -5,7 +5,22 @@
 }
 
 .nav-link {
-    color: white !important;
+    color: black !important;
+}
+
+.nav-link-1 {
+    color: white;
+    font-size: 120%;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav-item{
+    margin-top: 5px;
+}
+
+.dropdown{
+    margin-right: 950px;
 }
 
 #logo {
@@ -46,4 +61,8 @@ body {
 
 .btn-secondary {
     background-color: black;
+}
+
+#dropdown-option {
+    color: black;
 }
