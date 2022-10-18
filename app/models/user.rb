@@ -9,5 +9,5 @@ class User < ApplicationRecord
                 uniqueness: {case_sentive: false}, 
                 length: {maximum: 105},
                 format: {with: VALID_EMAIL_REGEX}
-      
+    has_secure_password  # after install bcrypt gem, for hashing password
 end
